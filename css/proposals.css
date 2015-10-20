@@ -1,0 +1,87 @@
+/*
+* Proposals V0.0.1
+* Copyright 2015, Luis Armendariz
+*/
+
+html, body {
+	height: 100%;
+}
+body {
+	background: none 0px 0px repeat scroll rgb(211, 211, 211);
+}
+
+.basic-top {
+	margin-top: 25%;
+}
+.menu-box {
+	background-color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 5px;
+    padding: 8px 10px;
+}
+.menu-options .menu-option {
+	padding-bottom: 8px;
+}
+.menu-options .menu-option .fa {
+	margin-right: 6px;
+}
+
+
+.customer-search .search-label {
+	border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: inherit;
+}
+.customer-search .search-box {
+	display: inline-block;
+	height: 34px;
+}
+.customer-search .searchButton {
+	display: inline-block;
+}
+table.customer-list {
+	width: 100%;
+}
+table.customer-list button {
+	margin: 0;
+}
+div.service-list {
+	margin-top: 10px;
+}
+.service-select {
+	display: block;
+}
+.line-item-area {
+	display: inline-block;
+	width: 100%;
+}
+.line-item-list {
+	margin-bottom: 10px;
+	width: 100%;
+}
+table.line-item-list input {
+	margin-bottom: 0px;
+}
+table.line-item-list .count {
+	width: 97px;
+}
+table.line-item-list .discount {
+	width: 62px;
+}
+.list-total-area {
+	text-align: right;
+	margin-bottom: 10px;
+}
+.list-total {
+	display: inline-block;
+}
+.list-item-submit {
+	float:right;
+}
+
+
+.proposals-list {
+	width: 100%;
+}
